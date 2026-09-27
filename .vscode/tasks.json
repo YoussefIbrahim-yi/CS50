@@ -8,6 +8,9 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
+                "-I/usr/local/include",
+                "-L/usr/local/lib",
+                "-lcs50",
                 "-o",
                 "${workspaceFolder}/bin/${fileBasenameNoExtension}"
             ],
