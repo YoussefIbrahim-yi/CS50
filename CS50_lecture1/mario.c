@@ -30,7 +30,7 @@ void print_space(int n) {
 }
 void print_pyramids_blocks(int n) {
   for (int height = 0; height < n; height++) {
-    print_space(n - height);
+    print_space(n - (height + 1));
     print_half_row(height + 1);
     printf("  ");
     print_half_row(height + 1);
