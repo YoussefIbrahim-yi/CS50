@@ -11,6 +11,7 @@
                 "-I/usr/local/include",
                 "-L/usr/local/lib",
                 "-lcs50",
+                "-lm",
                 "-o",
                 "${workspaceFolder}/bin/${fileBasenameNoExtension}"
             ],
