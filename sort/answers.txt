@@ -1,0 +1,11 @@
+sort1 uses: selection sort
+
+How do you know?: sorting reversed list take longer than random list, sorting time is way longer as input size increases, sorting sorted list take very short time.
+
+sort2 uses: merge sort
+
+How do you know?: sorting lists with different sizes, sorted, random and reversed takes almost the same time.
+
+sort3 uses: bubble sort
+
+How do you know?: as lists size increase the sorting time increase by alot, and sorting random, reversed, or sorted lists takes the same amount of time.
