@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+typedef unsigned char BYTE;
+
+int main(int argc, char *argv[]) {
+  if (argc < 3) {
+    return 1;
+  }
+  FILE *src = fopen(argv[1], "r");
+  FILE *dst = fopen(argv[2], "w");
+  BYTE b;
+  while (fread(&b, sizeof(b), 1, src) != 0) {
+    fwrite(&b, sizeof(b), 1, dst);
+  }
+  fclose(src);
+  fclose(dst);
+}
