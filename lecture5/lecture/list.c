@@ -21,7 +21,7 @@ int main(void) {
     return 1;
   }
   // No need ofr this when using realloc autmaticaally copies the elements from
-  // the old list to the new one.
+  // the old list to the  new one.
   //   for (int i = 0; i < 3; i++) {
   //     tmp[i] = list[i];
   //   }
